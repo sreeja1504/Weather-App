@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Weather App</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <form id="search-form" action="">
+        <input type="search" placeholder="Enter City Name" id="search-input" required autocomplete="off"/>
+        <button id="search-button">Search</button>
+
+        <!-- <input type="text" id="text-input">
+        <input type="submit" value="submit"> -->
+    </form>
+    <main id="app-container">
+        <div id="location">
+          <p>......</p>
+        </div>
+        <div id="temp">
+           <img id="temp-icon" src=".\icons\clouds-and-sun.svg" alt="">
+           <p><span id="temp-value">......</span><span id="temp-unit">&degc</span></p>
+
+        </div>
+        <div id="climate">
+            <p>......</p>
+
+        </div>
+
+    </main>
+</body>
+<script src="script1.js"></script>
+</html>
